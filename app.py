@@ -35,7 +35,7 @@ if st.button('Predict'):
     if region == 'NorthEast':
         region = 2
     if region == 'NorthWest':
-        smoker = 3
+        region = 3
 
     input_data = (age, gender, bmi, children,smoker, region)
     input_data_array = np.asarray(input_data)
