@@ -34,7 +34,7 @@ if st.button('Predict'):
         region = 1
     if region == 'NorthEast':
         region = 2
-    if region == 'NorthEast':
+    if region == 'NorthWest':
         smoker = 3
 
     input_data = (age, gender, bmi, children,smoker, region)
