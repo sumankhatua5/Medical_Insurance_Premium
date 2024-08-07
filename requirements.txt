@@ -1,8 +1,6 @@
-streamlit
-sklearn
-pandas 
-numpy
-matplotlib
-pandas-datareader
+pandas
 scikit-learn
+streamlit
+joblib
+numpy
 
