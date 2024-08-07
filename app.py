@@ -6,7 +6,7 @@ import streamlit as st
 model = pkl.load(open('MIPM.pkl', 'rb'))
 
 st.header('Medical Insurance Premium Predictor')
-st.image(r"C:\Users\Asus\Desktop\Medical_Insurance_Premium\depositphotos_673217396-stock-photo-health-care-costs-stethoscope-calculator.jpg")
+st.image(r"depositphotos_673217396-stock-photo-health-care-costs-stethoscope-calculator.jpg")
 st.subheader("""This project can help insurance companies in pricing strategies and individuals in understanding""")
 st.subheader("""their potential insurance costs based on their personal and health characteristics""")
 
